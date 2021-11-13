@@ -27,13 +27,20 @@ url: "https://3-3.dev" # the base hostname & protocol for your site, e.g. http:/
 twitter_username: xfl03
 github_username:  xfl03
 
-show_downloads: false
-google_analytics: UA-50430406-3
+google_analytics: 
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "UA-50430406-3"
+    anonymize_ip: false
+
+minimal_mistakes_skin: "dark"
 
 # Build settings
-remote_theme: pages-themes/midnight@v0.2.0
+remote_theme: mmistakes/minimal-mistakes@4.24.0
 plugins:
-- jekyll-remote-theme
+  - jekyll-remote-theme
+  - jekyll-include-cache
 
 # Exclude from processing.
 # The following items will not be processed, by default.
