@@ -103,17 +103,17 @@ analytics:
 # Site Author
 author:
   name             : "33"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Welcome"
-  location         : "China"
+  avatar           : "/assets/images/head.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "签名绝赞征集中"
+  location         : "中国"
   email            : "moe@3-3.dev"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:moe@3-3.dev"
+      # url: "mailto:moe@3-3.dev"
     - label: "bilibili"
       icon: "fas fa-fw fa-tv"
-      url: "https://space.bilibili.com/8919498"
+      # url: "https://space.bilibili.com/8919498"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
@@ -122,7 +122,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/xfl03"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -141,7 +141,7 @@ footer:
       # url:
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
-      # url:
+      url: "https://github.com/xfl03"
     - label: "Bitbucket"
       icon: "fab fa-fw fa-bitbucket"
       # url:
@@ -237,6 +237,7 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-remote-theme
 
 
 # Archives
@@ -286,6 +287,6 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
