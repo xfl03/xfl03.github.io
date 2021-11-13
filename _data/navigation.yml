@@ -1,0 +1,7 @@
+main:
+  - title: "时间"
+    url: /year-archive/
+  - title: "类别"
+    url: /categories/
+  - title: "标签"
+    url: /tags/
