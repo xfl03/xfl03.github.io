@@ -55,7 +55,7 @@ toc: true
 
 作者在安装环境时所使用的版本：
 - GitHub Pages Ruby Gem: 221
--Jekyll: 3.9.0
+- Jekyll: 3.9.0
 - Minimal Mistakes: 4.24.0
 
 ### 配置博客
