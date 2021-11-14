@@ -42,7 +42,8 @@ Minimal Mistakes在`_includes/page__meta.html`中，使用了`document.content |
 
 这个方法使用了[Liquid模板引擎](https://shopify.github.io/liquid/)的语法，可以不依赖任何CI，直接在GitHub Pages上使用。
 
-用以下代码替换`_includes/page__meta.html`中的`{% assign words = document.content | strip_html | number_of_words %}`：
+用以下代码
+
 ```html
       {% assign content0 = document.content | strip_html %}
       {% assign content_size = content0 | size | minus: 1 %}
@@ -72,13 +73,21 @@ Minimal Mistakes在`_includes/page__meta.html`中，使用了`document.content |
       {% endfor %}
 ```
 
-这部分代码是作者自己编写的，欢迎多多交流。
+替换`_includes/page__meta.html`中的
+
+```
+{% assign words = document.content | strip_html | number_of_words %}
+```
+
+便可修复。
+
+这部分代码是作者自己编写的，作者对Liquid模板引擎的水平完全是现学现卖，欢迎多多交流。
 
 ## 感谢
 最后特别感谢[iBug](https://github.com/iBug)引导了修复方向。
 
 ## 发布平台
-本篇文章还发布在以下平台，均为作者发布：
-- 知乎：https://zhuanlan.zhihu.com/p/433233271
-- 思否：https://segmentfault.com/a/1190000040957794
-- 掘金：https://juejin.cn/post/7030428338036736037/
+本篇文章还由作者发布在以下平台：
+- [知乎](https://zhuanlan.zhihu.com/p/433233271)
+- [思否](https://segmentfault.com/a/1190000040957794)
+- [掘金](https://juejin.cn/post/7030428338036736037/)
