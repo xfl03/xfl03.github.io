@@ -1,7 +1,7 @@
 ---
 title: 在GitHub Pages上部署Jekyll静态博客
 layout: single
-date: '2021-11-14 18:59:39'
+date: '2021-11-14 21:03:39'
 categories:
 - 建站
 tags:
@@ -65,7 +65,7 @@ toc: true
 
 右上角的导航栏可以通过编辑`_data/navigation.yml`修改。
 
-如果这些常规配置仍然不能满足自定义的需求，还可以在仓库中直接创建与[Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes)的同名文件直接覆盖相关的代码。
+如果这些常规配置仍然不能满足自定义的需求，还可以在自己的仓库中直接创建[Minimal Mistakes GitHub仓库](https://github.com/mmistakes/minimal-mistakes)里面的同名文件，这样可以直接覆盖相关的代码。
 
 ### 编写博客
 博客内容使用Markdown进行编写，尚不熟悉Markdown的读者建议阅读[GitHub提供的中文教程](https://docs.github.com/cn/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)。文章一般命名为`_posts/年-月-日-标题.md`。
