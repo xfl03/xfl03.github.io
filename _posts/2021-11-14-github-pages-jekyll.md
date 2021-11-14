@@ -12,7 +12,6 @@ toc: true
 ---
 
 本篇文章将简单介绍一下如何使用Minimal Mistakes主题在GitHub Pages上部署Jekyll静态博客。
-
 虽然搭建静态博客的过程比较折腾，但可以免费使用GitHub提供的静态网页托管服务。
 
 ## 组件一览
