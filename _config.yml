@@ -20,7 +20,7 @@ title                    : "33 DEV"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "33"
-description              : "33的技术博客"
+description              : "33的技术博客，从开发者的视角分享有用的技术知识。"
 url                      : "https://3-3.dev" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "xfl03/xfl03.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
