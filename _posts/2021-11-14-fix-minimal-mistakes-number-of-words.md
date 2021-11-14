@@ -1,7 +1,7 @@
 ---
 title: 解决Jekyll主题Minimal Mistakes中文字数统计错误
 layout: single
-date: '2021-11-14 21:38:33'
+date: '2021-11-14 22:38:33'
 categories:
 - 建站
 tags:
@@ -12,7 +12,7 @@ toc: true
 ---
 
 当在GitHub Pages上使用Minimal Mistakes作为Jekyll主题时，会遇到中文字数统计错误的问题，一整段话被统计为1个字。本篇文章将会简单说明问题的来源和解决方案。
-![202111142135](..\assets\images\202111142135.png)
+![202111142135](/assets\images\202111142135.png)
 
 ## 问题来源
 
@@ -44,8 +44,8 @@ Minimal Mistakes在`_includes/page__meta.html`中，使用了`document.content |
 
 用以下代码
 
-```html
-      {% assign content0 = document.content | strip_html %}
+```
+{%raw %}      {% assign content0 = document.content | strip_html %}
       {% assign content_size = content0 | size | minus: 1 %}
       {% assign pre_is_letter = false %}
       {% assign words = 0 %}
@@ -70,13 +70,13 @@ Minimal Mistakes在`_includes/page__meta.html`中，使用了`document.content |
             {% assign pre_is_letter = false %}
             {% assign words = words | plus: 1 %}
         {% endcase %}
-      {% endfor %}
+      {% endfor %}{% endraw %}
 ```
 
 替换`_includes/page__meta.html`中的
 
 ```
-{% assign words = document.content | strip_html | number_of_words %}
+{%raw %}{% assign words = document.content | strip_html | number_of_words %}{% endraw %}
 ```
 
 便可修复。
