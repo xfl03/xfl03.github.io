@@ -84,3 +84,8 @@ git add .
 git commit -m "更新内容"
 git push
 ```
+
+## 发布平台
+本文还由作者发布在以下平台：
+- [掘金](https://juejin.cn/post/7030716744251473928)
+- [知乎](https://zhuanlan.zhihu.com/p/433547496)
