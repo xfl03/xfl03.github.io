@@ -14,6 +14,12 @@ toc: true
 当在GitHub Pages上使用Minimal Mistakes作为Jekyll主题时，会遇到中文字数统计错误的问题，一整段话被统计为1个字。本篇文章将会简单说明问题的来源和解决方案。
 ![202111142135](/assets\images\202111142135.png)
 
+## 环境版本
+作为参考，作者使用的版本如下：
+- GitHub Pages Ruby Gem: 221
+- Jekyll: 3.9.0
+- Minimal Mistakes: 4.24.0
+
 ## 问题来源
 
 Minimal Mistakes在`_includes/page__meta.html`中，使用了`document.content | strip_html | number_of_words`来计算文章字数（[相关代码](https://github.com/mmistakes/minimal-mistakes/blob/master/_includes/page__meta.html#L17)），这一步将`document.content`[去除HTML标签](https://shopify.github.io/liquid/filters/strip_html/)，然后调用`number_of_words`函数计算字数。
