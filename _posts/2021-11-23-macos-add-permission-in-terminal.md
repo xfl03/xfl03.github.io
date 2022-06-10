@@ -46,7 +46,7 @@ sudo /usr/bin/sqlite3 /Library/Application\ Support/com.apple.TCC/TCC.db "INSERT
 - 尽可能重新启动App
 
 权限和包名两个变量请自行根据需求替换：
-- 权限：辅助功能`kTCCServiceAccessibility`、摄像头`kTCCServiceCamera`、输入监听`kTCCServiceListenEvent`、麦克风`kTCCServiceMicrophone`、录制屏幕`kTCCServiceScreenCapture`、完全磁盘访问权限`kTCCServiceSystemPolicyAllFiles`等
+- 权限：辅助功能`kTCCServiceAccessibility`、摄像头`kTCCServiceCamera`、输入监听`kTCCServiceListenEvent`、麦克风`kTCCServiceMicrophone`（请修改用户数据库）、录制屏幕`kTCCServiceScreenCapture`、完全磁盘访问权限`kTCCServiceSystemPolicyAllFiles`等
 - 包名：在`访达`中找到应用程序文件后（一般位于`应用程序`），右键选择`显示包内容`，使用文本编辑器打开`Contents/Info.plist`，找到`<key>CFBundleIdentifier</key>`，下面一行在`<string>`和`</string>`中间的便是包名
 
 ## 实例
