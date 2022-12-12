@@ -165,7 +165,7 @@ spring.jpa.hibernate.naming.physical-strategy=org.hibernate.boot.model.naming.Ca
 
 ## 发布平台
 本文还发布至以下平台：
-- (知乎)[https://zhuanlan.zhihu.com/p/591283166]
-- (掘金)[https://juejin.cn/post/7176204472082038840]
-- (思否)[https://segmentfault.com/a/1190000043043122]
-- (CSDN)[https://blog.csdn.net/gooding300/article/details/128291396]
+- [知乎](https://zhuanlan.zhihu.com/p/591283166)
+- [掘金](https://juejin.cn/post/7176204472082038840)
+- [思否](https://segmentfault.com/a/1190000043043122)
+- [CSDN](https://blog.csdn.net/gooding300/article/details/128291396)
