@@ -3,7 +3,7 @@ title: macOS Monterey终端添加App权限——以QQ、腾讯会议屏幕录制
 layout: single
 date: '2021-11-23 22:50:39'
 categories:
-- 环境
+- 运维
 tags:
 - macOS
 - QQ

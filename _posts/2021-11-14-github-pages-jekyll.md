@@ -3,11 +3,11 @@ title: 在GitHub Pages上部署Jekyll静态博客
 layout: single
 date: '2021-11-14 21:03:39'
 categories:
-- 建站
+- 前端
 tags:
 - Jekyll
-- Minimal-Mistakes
-- GitHub-Pages
+- MinimalMistakes
+- GitHubPages
 toc: true
 ---
 

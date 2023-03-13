@@ -3,11 +3,11 @@ title: 解决Jekyll主题Minimal Mistakes中文字数统计错误
 layout: single
 date: '2021-11-14 22:38:33'
 categories:
-- 建站
+- 前端
 tags:
 - Jekyll
-- Minimal-Mistakes
-- GitHub-Pages
+- MinimalMistakes
+- GitHubPages
 toc: true
 ---
 

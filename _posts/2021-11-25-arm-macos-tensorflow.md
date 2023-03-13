@@ -3,7 +3,7 @@ title: arm架构macOS安装TensorFlow并开启GPU加速
 layout: single
 date: '2021-11-25 21:40:39'
 categories:
-- 环境
+- 运维
 tags:
 - macOS
 - arm
