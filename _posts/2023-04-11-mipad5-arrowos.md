@@ -55,7 +55,7 @@ ArrowOS是一个类原生Android系统、Magisk Delta在Magisk基础上增加了
 - 小米平板5：6GB内存+128GB存储
 - ArrowOS：13.0 20230117
 - Magisk Delta：25210
-- Lsposed：1.8.6(6712)
+- LSPosed：1.8.6(6712)
 
 ## 解锁BootLoader
 首先需要在MIUI中点击多次`设置`-`我的设备`-`全部参数`-`MIUI版本`打开开发者选项，然后在`设置`-`更多设置`-`开发者选项`-`设备解锁状态`中绑定账号。

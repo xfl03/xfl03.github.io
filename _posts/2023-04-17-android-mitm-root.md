@@ -32,8 +32,11 @@ HTTPS通信数据是加密的，会通过不对等加密进行握手后使用对
 ## 隐藏Root
 部分应用或游戏会检测设备Root情况，如果无需隐藏Root可以跳过这一步。
 
-**请勿使用Shamiko**隐藏Root，这会导致无法在被隐藏Root的应用中抓包。
-推荐使用[Magisk Delta](https://huskydg.github.io/magisk-files/intro.html)，并在设置里的Magisk Hide中选定需要隐藏Root的应用。
+如果使用Magisk，可以使用Shamiko模块隐藏Root。
+
+如果使用[Magisk Delta](https://huskydg.github.io/magisk-files/intro.html)，可以在设置里的Magisk Hide中选定需要隐藏Root的应用。
+
+部分应用或游戏在启用Shamiko或Magisk Hide时会无法正常抓包，还请自行取舍。
 
 也有部分应用会通过检测其它应用包名的方式来检测Root，还可以额外通过安装[隐藏应用列表应用](https://github.com/Dr-TSNG/Hide-My-Applist/releases)来避免这一问题。
 
@@ -47,6 +50,15 @@ HTTPS通信数据是加密的，会通过不对等加密进行握手后使用对
 - HttpCanary：也可以直接在Android设备上抓包，应用已不再维护，Google Play、GitHub均删除了相关内容
 
 下文会以mitmproxy为例，其他软件大差不差。
+
+## 版本参考
+作为参考，笔者使用的软件版本如下：
+- Android：13
+- mitmproxy：9.0.1
+- Magisk Delta：25210
+- TrustUserCerts：0.4.1
+- LSPosed：1.8.6(6712)
+- TrustMeAlready：1.11
 
 ## 安装抓包软件
 1. 打开[mitmproxy官网](https://mitmproxy.org/)
@@ -92,4 +104,5 @@ HTTPS通信数据是加密的，会通过不对等加密进行握手后使用对
 ## 发布平台
 本文还发布至：
 
-- [知乎](https://zhuanlan.zhihu.com/p/622683830)
+- [知乎回答](https://www.zhihu.com/question/20467503/answer/2988534912)
+- [知乎文章](https://zhuanlan.zhihu.com/p/622683830)
