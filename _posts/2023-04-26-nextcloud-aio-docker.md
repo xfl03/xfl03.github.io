@@ -48,7 +48,7 @@ mkfs.ext4 -U 硬盘的UUID
 nano /etc/fstab
 ```
 
-在文件结尾另起一行，写入（请注意替换硬盘的UUID与挂载点）：
+用UUID而不是`/dev/sdb`是因为位置是不固定的，比如这次是`/dev/sdb`，可能重启之后就变成`/dev/sda`了，只有UUID才能保证确定是想要的硬盘。在文件结尾另起一行，写入（请注意替换硬盘的UUID与挂载点）：
 
 ```text
 UUID=硬盘的UUID /data ext4 defaults 0 0

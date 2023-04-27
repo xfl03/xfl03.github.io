@@ -151,7 +151,7 @@ nvidia-smi
 
 ## 参考资料
 
-- [COMPLETE GUIDE - ESXI | UBUNTU 22.04 WITH NVIDIA GPU PASSTHROUGH](https://www.youtube.com/watch?v=rhNCtsmVC30)
+- [COMPLETE GUIDE - ESXI UBUNTU 22.04 WITH NVIDIA GPU PASSTHROUGH](https://www.youtube.com/watch?v=rhNCtsmVC30)
 - [Ubuntu安装NVIDIA驱动 run方式](https://huazhe1995.github.io/2020/01/01/ubuntu-an-zhuang-nvidia-qu-dong-run-fang-shi/)
 - [NVIDIA Accelerated Linux Graphics Driver README and Installation Guide](http://download.nvidia.com/XFree86/Linux-x86_64/530.41.03/README/)
 
