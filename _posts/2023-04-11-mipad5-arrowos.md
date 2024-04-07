@@ -154,7 +154,7 @@ adb push LSPosed-v1.8.6-6712-zygisk-release.zip /sdcard/Download
 回到`主页`，点击下方`模块`，点击右下角悬浮按钮，选择LSPosed的文件，等待安装后重启设备即可。
 
 ## 参考文献
-- [[ROM]ArrowOS 13.0 | 12.1/12L for Xiaomi Pad 5 (nabu) | [OFFICIAL]](https://forum.xda-developers.com/t/rom-arrowos-13-0-12-1-12l-for-xiaomi-pad-5-nabu-official.4502749/)
+- [[ROM]ArrowOS 13.0 12.1/12L for Xiaomi Pad 5 (nabu) [OFFICIAL]](https://forum.xda-developers.com/t/rom-arrowos-13-0-12-1-12l-for-xiaomi-pad-5-nabu-official.4502749/)
 - [Instructions thread for (nabu) Mi Pad 5 on ArrowOS](https://k001droid.medium.com/instructions-thread-for-nabu-mi-pad-5-on-arrowos-9be3c4054c0a)
 - [小米平板5刷机ArrowOS完整教程（附带刷入MAGISK教程）](https://www.bilibili.com/video/BV1sK411d7yH/)
 
