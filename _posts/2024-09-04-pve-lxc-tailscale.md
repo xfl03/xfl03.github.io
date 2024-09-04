@@ -206,7 +206,13 @@ tailscale up --advertise-routes=192.168.1.0/24
 # 参考文档
 
 - [Tailscale in LXC containers](https://tailscale.com/kb/1130/lxc-unprivileged)
-- [https://tailscale.com/kb/1082/firewall-ports](https://tailscale.com/kb/1082/firewall-ports)
+- [What firewall ports should I open to use Tailscale?](https://tailscale.com/kb/1082/firewall-ports)
 - [Setting up Tailscale on Linux](https://tailscale.com/kb/1031/install-linux)
 - [Configure a subnet router](https://tailscale.com/kb/1406/quick-guide-subnets)
 - [Tailscale Serve examples](https://tailscale.com/kb/1313/serve-examples)
+
+# 发布平台
+
+本篇文章还发表在：
+
+- [知乎](https://zhuanlan.zhihu.com/p/718312953)
